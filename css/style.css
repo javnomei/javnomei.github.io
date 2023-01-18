@@ -164,7 +164,7 @@ section ul li:before {
 .navbar-default .nav li a {
 	font-family: "Open Sans",sans-serif;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: hsla(0,0%,100%,.8);
@@ -321,9 +321,16 @@ header {
 --------------------*/
 
 .section-title h2 {
-	font-size: 50px;
+	font-size: 70px;
 	color: #B3B3BB;
 	font-weight: 900;
+	letter-spacing: -0.6px;
+	position: relative;
+	margin: 0 0 50px 0;
+	padding-bottom: 15px;
+}
+.section-title h3 {
+	font-size: 25px;
 	letter-spacing: -0.6px;
 	position: relative;
 	margin: 0 0 50px 0;
@@ -482,14 +489,14 @@ header {
 
 .featured-item {
 	margin-bottom: 30px;
-	height: 110px;
+	min-height: 150px;
 }
 
 .featured-icon {
 	float: left;
 	font-size: 22px;
 	border-radius: 5px;
-	width: 55px;
+	width: 85px;
 	height: 55px;
 	/*background-color: #F8F8F8;*/
 	line-height: 50px;
@@ -497,17 +504,24 @@ header {
 }
 .featured-text {
 	text-align: left;
-	margin-left: 85px;
+	margin-left: 15px;
+	text-align: justify;
 }
 .featured-text h4 {
 	color: #47474C;
-	font-size: 17px;
+	font-size: 22px;
 	font-weight: 700;
+}
+.featured-text h6 {
+	color: #9d9d9d;
+	font-size: 18px;
+	font-weight: 500;
 }
 .featured-text p {
 	color: #747377;
-	margin-top: 7px;
-	font-size: 13px;
+	margin-top: 30px;
+	/*margin-left: 0px;*/
+	font-size: 16px;
 	line-height: 21px;
 	font-weight: 500;
 }
