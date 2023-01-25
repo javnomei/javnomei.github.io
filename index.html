@@ -54,7 +54,12 @@
 	<div class="bg">
 
 			<picture>
-				<img src="images/fondo.jpg" alt="fondo" />
+				<source media="(max-width: 400px)" srcset="images/fondo/fondo_w_400.webp" />
+				<source media="(max-width: 899px)" srcset="images/fondo/fondo_w_899.webp" />
+				<source media="(max-width: 1246px)" srcset="images/fondo/fondo_w_1246.webp" />
+				<source media="(max-width: 1556px)" srcset="images/fondo/fondo_w_1556.webp" />
+				<source media="(min-width: 1557px)" srcset="images/fondo/fondo_w_1800.webp" />
+				<img src="images/fondo/fondo_w_1800.webp" alt="fondo" />
 			</picture>
 
 	</div>
